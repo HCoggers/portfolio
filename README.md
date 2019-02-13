@@ -7,3 +7,14 @@ Start time: 9:27a
 Finish time: 10:14
 
 Actual time needed to complete: 47 minutes
+
+________________________________________________
+Number and name of feature: #2 Modify the contents
+
+Estimate of time needed to complete: 60 mins
+
+Start time: 10:30a
+
+Finish time: 12:40a
+
+Actual time needed to complete: 130 minutes...

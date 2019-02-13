@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import url("https://fonts.googleapis.com/css?family=Advent+Pro:300");
 
 /*
 	Prologue by HTML5 UP
@@ -84,11 +84,11 @@ html {
 
 body {
   background: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Advent Pro', sans-serif;
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
-  color: #888;
+  color: #20304b;
 }
 
   body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -103,7 +103,7 @@ body {
   }
 
 input, textarea, select {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Advent Pro', sans-serif;
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
@@ -112,7 +112,7 @@ input, textarea, select {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
-  color: #666;
+  color: #20304b;
   line-height: 1.5em;
 }
 
