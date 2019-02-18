@@ -7,7 +7,7 @@
   width: 1400px;
 }
 
-  @media screen and (min-width: 961px) and (max-width: 1880px) {
+  @media screen and (min-width: 736px) and (max-width: 1880px) {
 
     .container {
       width: 1200px;
@@ -15,7 +15,7 @@
 
   }
 
-  @media screen and (min-width: 961px) and (max-width: 1620px) {
+  @media screen and (min-width: 736px) and (max-width: 1620px) {
 
     .container {
       width: 960px;
@@ -23,7 +23,7 @@
 
   }
 
-  @media screen and (min-width: 961px) and (max-width: 1320px) {
+  @media screen and (min-width: 736px) and (max-width: 1320px) {
 
     .container {
       width: 100%;
@@ -290,7 +290,7 @@
         padding-top: 80px;
       }
 
-  @media screen and (min-width: 961px) and (max-width: 1880px) {
+  @media screen and (min-width: 736px) and (max-width: 1880px) {
 
     .row {
       display: flex;
@@ -535,7 +535,7 @@
 
   }
 
-  @media screen and (min-width: 961px) and (max-width: 1620px) {
+  @media screen and (min-width: 736px) and (max-width: 1620px) {
 
     .row {
       display: flex;
@@ -780,7 +780,7 @@
 
   }
 
-  @media screen and (min-width: 961px) and (max-width: 1320px) {
+  @media screen and (min-width: 736px) and (max-width: 1320px) {
 
     .row {
       display: flex;
@@ -1869,11 +1869,6 @@ table {
       background-position: center center;
     }
 
-    #main > section.one {
-      background-color: #81918E;
-      background-image: url("../../images/banner.jpg");
-    }
-
     #main > section.two {
       background-color: #f7e5c7;
     }
@@ -1888,7 +1883,7 @@ table {
     
 /* Wide */
 
-@media screen and (min-width: 961px) and (max-width: 1880px) {
+@media screen and (min-width: 736px) and (max-width: 1880px) {
 
   /* Basic */
 
@@ -1918,7 +1913,7 @@ table {
 
 /* Normal */
 
-@media screen and (min-width: 961px) and (max-width: 1620px) {
+@media screen and (min-width: 736px) and (max-width: 1620px) {
 
   /* Main */
 
@@ -1934,7 +1929,7 @@ table {
 
 /* Narrow */
 
-@media screen and (min-width: 961px) and (max-width: 1320px) {
+@media screen and (min-width: 736px) and (max-width: 1320px) {
 
   /* Basic */
 
@@ -2017,10 +2012,6 @@ table {
       font-size: 16pt;
     }
 
-    header br {
-      display: none;
-    }
-
     .container {
       padding: 0 2em 0 2em;
     }
@@ -2037,6 +2028,54 @@ table {
       width: 1.75em;
       font-size: 1.25em;
     }
+
+  /* Footer */
+
+    #footer {
+      margin-left: 0;
+    }
+  }
+
+/* Mobile */
+
+@media screen and (max-width: 736px) {
+
+  /* Basic */
+
+    body, input, textarea, select {
+      font-size: 14pt;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      letter-spacing: 0;
+      font-weight: 300;
+    }
+
+    .container {
+      padding: 0 15px 0 15px;
+    }
+
+  /* List */
+
+    ul.icons a {
+      width: 2em;
+      font-size: 1.25em;
+    }
+
+  /* Main */
+
+    #main > section {
+      padding: 2em 0;
+    }
+
+    #main section.cover {
+      padding: 4em 0em;
+    }
+
+      #main section.cover header {
+        padding: 0 1em;
+      }
 
   /* Header */
 
@@ -2161,10 +2200,18 @@ table {
 
   /* Footer */
 
-    #footer {
-      margin-left: 0;
+    #footer .copyright li {
+      display: block;
+      line-height: 1.25em;
+      border: 0;
+      padding: 0;
+      margin: 1em 0 0 0;
     }
 
+      #footer .copyright li:first-child {
+        margin-top: 0;
+      }
+    
   /* Main */
 
     #main {
@@ -2186,63 +2233,6 @@ table {
 
       #main section.cover {
         padding: 4em 0;
-      }
-
-}
-
-/* Mobile */
-
-@media screen and (max-width: 736px) {
-
-  /* Basic */
-
-    body, input, textarea, select {
-      font-size: 14pt;
-    }
-
-    h2 {
-      font-size: 1.5em;
-      letter-spacing: 0;
-      font-weight: 300;
-    }
-
-    .container {
-      padding: 0 15px 0 15px;
-    }
-
-  /* List */
-
-    ul.icons a {
-      width: 2em;
-      font-size: 1.25em;
-    }
-
-  /* Main */
-
-    #main > section {
-      padding: 2em 0;
-    }
-
-    #main section.cover {
-      padding: 4em 0em;
-    }
-
-      #main section.cover header {
-        padding: 0 1em;
-      }
-
-  /* Footer */
-
-    #footer .copyright li {
-      display: block;
-      line-height: 1.25em;
-      border: 0;
-      padding: 0;
-      margin: 1em 0 0 0;
-    }
-
-      #footer .copyright li:first-child {
-        margin-top: 0;
       }
 
 }
