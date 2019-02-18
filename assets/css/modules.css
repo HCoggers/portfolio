@@ -1,5 +1,15 @@
 /* Image */
 
+video {
+  position: fixed;
+  top: 0;
+  left: -10vw;
+  object-position: 50% 50%;
+  z-index: -1;
+  height: 100%;
+  object-fit: cover;
+}
+
 .image {
   display: inline-block;
   border: 0;
