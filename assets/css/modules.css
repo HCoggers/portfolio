@@ -29,6 +29,7 @@ video {
     .image.avatar48 img {
       width: 48px;
       height: 48px;
+      border-radius: 5px;
     }
 
   .image.fit {
