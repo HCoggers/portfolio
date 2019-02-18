@@ -18,3 +18,14 @@ Start time: 10:30a
 Finish time: 12:40a
 
 Actual time needed to complete: 130 minutes...
+
+________________________________________________
+Number and name of feature: #3 Add Functionality
+
+Estimate of time needed to complete: 2 hrs
+
+Start time: 9:45am
+
+Finish time: 
+
+Actual time needed to complete:
