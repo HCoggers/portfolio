@@ -8,8 +8,9 @@
   src: url(../fonts/Parisish-EEoW.ttf);
 }
 
-* {
+*, li {
   color: steelblue;
+  font-family: PoiretOne;
 }
 
 main {
@@ -17,13 +18,13 @@ main {
 }
 
 h1, a, li {
-  font-family: PoiretOne;
   color: black;
   text-decoration: none;
 }
 
 a:hover {
   background-color: black;
+  /* give filigree border */
   color: steelblue;
 }
 
