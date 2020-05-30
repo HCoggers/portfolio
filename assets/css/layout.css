@@ -8,6 +8,10 @@ header {
   background-color: aliceblue;
 }
 
+main {
+  padding: 5vw 10vw;
+}
+
 #navtoggle {
   width: 100%;
 }
@@ -19,10 +23,13 @@ nav {
 nav li {
   width: 100%;
   text-align: center;
+  padding: .5em 0;
 }
 
 a {
   width: 100%;
+  padding: .5em;
+  border-radius: 1em;
 }
 
 footer {
