@@ -1,4 +1,36 @@
-h1 {
-  padding: .5em;
-  border: solid green 2px;
+header {
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: auto 10%;
+  align-items: center;
+  padding: 2vw 5vw;
+  background-color: aliceblue;
+}
+
+#navtoggle {
+  width: 100%;
+}
+
+nav {
+  grid-column: 1 / span 2;
+}
+
+nav li {
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  width: 100%;
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: auto 10%;
+  align-items: center;
+  padding: 2vw 5vw;
+  background-color: aliceblue;
 }

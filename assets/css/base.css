@@ -1,4 +1,24 @@
-* {
-  font-family: monospace;
-  border: 1px red;
+@font-face{
+  font-family: PoiretOne;
+  src: url(../fonts/PoiretOne-Regular.ttf);
+}
+
+@font-face{
+  font-family: Parisish;
+  src: url(../fonts/Parisish-EEoW.ttf);
+}
+
+*, a, li {
+  font-family: PoiretOne;
+  color: black;
+  text-decoration: none;
+}
+
+h1, h2 {
+  font-family: Parisish;
+  font-size: 7vw;
+}
+
+h1 {
+  font-size: 10vw;
 }
