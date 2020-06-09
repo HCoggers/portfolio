@@ -1,8 +1,8 @@
 .carousel {
-  padding-top: 10px;
   width: 80vw;
   text-align: center;
   overflow: hidden;
+  margin-top: 20px;
 }
 
 .slides {
@@ -30,7 +30,7 @@
 }
 
   #slide-1 {
-    background-image: url(https://i.imgur.com/qFObFkC.jpg);
+    background-image: url(/assets/images/slide-1.jpg);
   }
 
   #slide-2 {
@@ -38,7 +38,7 @@
   }
 
   #slide-3 {
-    background-image: url(https://i.imgur.com/3GnqQ7Q.png);
+    background-image: url(/assets/images/slide-3.png);
   }
 
   #slide-4 {
@@ -65,4 +65,28 @@
 .slides a:hover {
   transition-duration: 1s;
   background-color: rgb(22, 30, 37);
+}
+
+.carouselnav {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carouselnav>ol, .carouselnav li, .carouselnav a {
+  display: inline-block;
+}
+
+.carouselnav a {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: aliceblue;
+  background-clip: content-box;
+  border: 0.25rem solid transparent;
+  border-radius: 50%;
+  font-size: 0;
+  transition: transform 0.1s;
+}
+
+.carouselnav a:target {
+  padding-top: 200px;
 }

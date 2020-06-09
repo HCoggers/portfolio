@@ -14,7 +14,7 @@
 }
 
 main {
-  background-color: white;
+  background-color: black;
 }
 
 h1, a, li {
@@ -22,9 +22,10 @@ h1, a, li {
   text-decoration: none;
 }
 
-nav a:hover {
+nav li:hover {
   background-color: black;
-  /* give filigree border */
+}
+nav li:hover a {
   color: steelblue;
 }
 
@@ -40,7 +41,7 @@ h1 {
 h2 {
   text-align: center;
   border: 1.5em solid transparent;
-  border-image: url(https://svgsilh.com/svg/1689760.svg) 500 50 stretch;
+  border-image: url(/assets/images/border.svg) 500 50 stretch;
   border-image-width: 50% 10%;
   border-color: aliceblue;
   margin-bottom: 10px;

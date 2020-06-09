@@ -9,4 +9,14 @@ $(document).ready(function(){
   $("#navtoggle").click(function(){
     $("nav").toggle();
   })
+
+  $(".carouselnav a").click(function(e) {
+    var target = this.getAttribute("href");
+    var scroll = $('.slides').scrollLeft();
+    console.log(target, $(target).position().left);
+    $('.slides').animate({
+      scrollLeft: scroll + $(target).position().left
+    });
+    e.preventDefault();
+  })
 })
