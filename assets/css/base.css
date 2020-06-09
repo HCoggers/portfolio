@@ -41,7 +41,7 @@ h1 {
 h2 {
   text-align: center;
   border: 1.5em solid transparent;
-  border-image: url(/assets/images/border.svg) 500 50 stretch;
+  border-image: url(../images/border.svg) 500 50 stretch;
   border-image-width: 50% 10%;
   border-color: aliceblue;
   margin-bottom: 10px;
