@@ -1,4 +1,44 @@
-h1 {
+header {
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: auto 10%;
+  align-items: center;
+  padding: 2vw 5vw;
+  background-color: aliceblue;
+}
+
+main {
+  padding: 5vw 10vw;
+}
+
+#navtoggle {
+  width: 100%;
+}
+
+nav {
+  grid-column: 1 / span 2;
+}
+
+nav li {
+  width: 100%;
+  text-align: center;
+  padding: .5em 0;
+}
+
+nav a {
+  width: 100%;
   padding: .5em;
-  border: solid green 2px;
+  border-radius: 1em;
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: auto 10%;
+  align-items: center;
+  padding: 2vw 5vw;
+  background-color: aliceblue;
 }
