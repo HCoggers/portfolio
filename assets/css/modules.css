@@ -30,15 +30,15 @@
 }
 
   #slide-1 {
-    background-image: url(/assets/images/slide-1.jpg);
+    background-image: url(../images/slide-1.jpg);
   }
 
   #slide-2 {
-    background-image: url(/assets/images/slide-2.png);
+    background-image: url(../images/slide-2.png);
   }
 
   #slide-3 {
-    background-image: url(/assets/images/slide-3.png);
+    background-image: url(../images/slide-3.png);
   }
 
   #slide-4 {
